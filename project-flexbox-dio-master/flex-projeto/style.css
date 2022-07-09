@@ -21,6 +21,18 @@ div img {
     width: 100%;
 }
 
+body {
+    background-color: #f2eabc;
+}
+
+body img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 35px;
+    overflow: hidden;
+}
+
 /*barra inicial*/
 .flex-container {
     display: flex;
@@ -128,6 +140,7 @@ header .list-items {
     flex-direction: column;
     padding-top: 50px;
     padding-bottom: 100px;
+    margin-top: 35px;
 }
 
 #servicos h2 {
@@ -149,7 +162,7 @@ header .list-items {
     height: 50px;
     text-align: center;
     text-decoration: none;
-    margin-top: 20px;
+    margin-top: 50px;
     line-height: 50px;
     padding: 5px 10px;
     color: #2d2d29;
